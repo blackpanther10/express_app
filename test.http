@@ -1,0 +1,16 @@
+GET http://localhost:3001/items
+
+###
+POST http://localhost:3001/items
+Content-Type: application/json
+
+{
+    "name": "foo",
+    "value": 42
+}
+
+###
+PUT http://localhost:3001/items/1
+Content-Type: application/json
+
+{
